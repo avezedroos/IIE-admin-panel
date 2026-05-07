@@ -93,6 +93,11 @@ width: 100%;
   align-items: center;
   justify-content: space-between;
   margin-top: 10px;
+   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  width: 90%;
+  margin-top: 15px;
 }
 /* card style start here  */
 .card {
@@ -109,8 +114,9 @@ width: 100%;
   color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 10px 20px;
+  width: 90%;
+  justify-content: space-around;
+  padding: 5px 5px;
 
   background: rgba(255, 255, 255, 0.85);
 backdrop-filter: blur(10px);
@@ -125,7 +131,7 @@ box-shadow: 0 8px 25px rgba(0,0,0,0.08);
     text-align: center;
   }
   .statsCard-detaile p{
-    font-size: 1rem;
+    font-size: 0.6rem;
     font-weight: bold;
   }
 }
